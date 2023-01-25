@@ -9,32 +9,26 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form action="post">
-		<label for="input#name">Name</label>
-		<input id="input#name" type="text">
-		<label for="input#email">Email</label>
-		<input id="input#email" type="email">
+		<label for="name">Name</label>
+		<input id="name" type="text">
+		<label for="email">Email</label>
+		<input id="email" type="email">
 		<label for="gender">Gender</label>
-    <input type="radio" name="gender" id="gender">
+    <input type="radio" id="gender">
 		 <label for="gender">male</label>
-    <input type="radio" name="gender" id="gender">
+    <input type="radio" id="gender">
 		<label for="gender">female</label>
-		<label for="select#cars">Car Brands</label>
-		<input type="radio" id="select#cars" name="select" >
-		<label for="select#cars">BMW</label>
-		<input type="radio" id="select#cars" name="select">
-		<label for="select#cars">Audi</label>
-		<input type="radio" id="select#cars" name="select">
-		<label for="select#cars">Mercedez</label>
-		<label for="input#carage">Car Age</label>
-		<input type="number" id="input#carage" name="carage">
-		<label for="input#dop">Date of Purchase(dop)</label>
-		<input type="date" id="input#dop" name="Date of Purchase">
-		<label for="input#password">Password</label>
-		<input type="password" id="input#password" name="#password">
-	    <button type="submit"
-		
-			
-		
+		<label for="cars">Car Brands</label>
+		<select name="car" id="cars">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<label for="dop">Date of Purchase(dop)</label>
+		<input type="date" id="dop" name="Date of Purchase">
+		<label for="password">Password</label>
+		<input type="password" id="password">
+	    <button type="submit"></button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
